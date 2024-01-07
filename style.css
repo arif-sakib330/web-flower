@@ -39,6 +39,23 @@ button:hover {
     background-color: #ff0138;
 }
 
+.section-heading {
+    width: 500px;
+    text-align: center;
+    margin: 133px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
 header {
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -80,7 +97,7 @@ header {
     font-weight: 800;
 }
 
-.featured-title p{
+.featured-title p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -88,7 +105,43 @@ header {
     margin-top: 20px;
     justify-content: center;
 }
-.flower-content{
+
+.flower-content {
     display: flex;
-    
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+.container .flower-content .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 2px;
+    height: 500px;
+    display: flex;
+}
+.flower-img{
+    width: 100%;
+}
+
+.one {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.two {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.three {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower h4 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 32px;
+    text-decoration-line: underline;
 }
